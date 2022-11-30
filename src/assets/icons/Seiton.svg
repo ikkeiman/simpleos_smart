@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1のコピー_15" data-name="レイヤー 1のコピー 15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <path id="_パス_3" data-name="パス 3" d="M225,0H855c124.27,0,225,100.74,225,225V855c0,124.27-100.74,225-225,225H225C100.74,1080,0,979.26,0,855V225C0,100.74,100.74,0,225,0Z" style="fill: none;"/>
+  <g>
+    <rect x="142" y="142" width="199" height="199" style="fill: #fff;"/>
+    <rect x="440.5" y="142" width="199" height="199" style="fill: #fff;"/>
+    <rect x="739" y="142" width="199" height="199" style="fill: #fff;"/>
+    <rect x="142" y="440.5" width="199" height="199" style="fill: #fff;"/>
+    <rect x="440.5" y="440.5" width="199" height="199" style="fill: #fff;"/>
+    <rect x="739" y="440.5" width="199" height="199" style="fill: #fff;"/>
+    <rect x="142" y="739" width="199" height="199" style="fill: #fff;"/>
+    <rect x="440.5" y="739" width="199" height="199" style="fill: #fff;"/>
+    <rect x="739" y="739" width="199" height="199" style="fill: #fff;"/>
+  </g>
+</svg>
