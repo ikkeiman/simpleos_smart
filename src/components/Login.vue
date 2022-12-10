@@ -1,11 +1,11 @@
 <template>
   <div id="body-color">
     <div id="setumeiDIV">
-      <p class="fs-2 pt-5">これは今世紀最大の特大のニュースです</p>
+      <p class="fs-5 pt-5">これは今世紀最大の特大のニュースです</p>
 
       <img src="@/assets/icons/Rogo.gif" class="unko" alt="ロゴ" />
 
-      <p class="fs-1 moji">simple.OS　スマートフォン</p>
+      <p class="fs-1 moji">simple.OS スマートフォン</p><br>
 
       <p class="moji">スマホ・PC あなたが持っているすべてのデバイスで使えます。</p>
       <p class="moji">家の中でも 旅行先でも</p>
@@ -20,7 +20,7 @@
       <div class="main">
         <div class="container">
           <p class="fs-2 pt-5">
-            おかえりなさいませ ご主人様<br />
+            おかえりなさいませ ご主人様
             また会えることを心待ちにしておりました！
           </p>
         </div>
@@ -44,8 +44,8 @@
           <div class="col"></div>
           <div class="col"></div>
           <div class="col">
-            <div class="text-center">
-              <p class="fs-6">あれ… もしかして、今日初めてお会いしますか？</p>
+            <div class="text-end">
+              <p class="pai">あれ… もしかして、今日初めてお会いしますか？</p>
 
               <button @click="Create('Createaccount')" class="btn btn-secondary mx-auto btn-lg">
                 アカウント作成
@@ -64,27 +64,27 @@ import axios from 'axios'
 
 export default {
   name: 'App',
-  data() {
+  data () {
     return {
       UserId: null
     }
   },
-  mounted() {
+  mounted () {
     document.getElementById('mainDIV').style.display = 'none'
   },
   methods: {
-    setumeiDIV() {
+    setumeiDIV () {
       document.getElementById('setumeiDIV').style.display = 'none'
       document.getElementById('mainDIV').style.display = 'Block'
     },
 
-    Create(page) {
+    Create (page) {
       this.$router.push({
         name: page
       })
     },
 
-    Login(page) {
+    Login (page) {
       let pass = ''
       let UserID = ''
       let me = this
@@ -124,7 +124,7 @@ export default {
 <style scorped>
 .unko {
   display: block;
-  width: 20Vw;
+  width: 60Vw;
   margin: auto;
 }
 
@@ -168,6 +168,10 @@ export default {
 
 .fs-2 {
   display: block;
+  text-align: center;
+}
+
+.fs-5{
   text-align: center;
 }
 
@@ -218,7 +222,10 @@ export default {
   color: #fff;
 }
 
-.box {
-  height: 15vh;
+.pai{
+  font-size: 0.9rem;
+  white-space: nowrap;
+
 }
+
 </style>

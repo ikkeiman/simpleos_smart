@@ -7,13 +7,13 @@
       <div class="contanier contanier2 mx-auto">
 
         <p class="ml-auto">ユーザID</p>
-        <input type="text" name="" id="UserId" class="form-control">
+        <input type="text" name="" id="UserId" class="form-control"><br>
 
         <p class="ml-auto">パスワード</p>
-        <input type="password" name="" id="password" class="form-control">
+        <input type="password" name="" id="password" class="form-control"><br>
 
         <p class="ml-auto">メールアドレス</p>
-        <input type="text" name="" id="name" class="form-control">
+        <input type="text" name="" id="name" class="form-control"><br>
 
       </div>
     </div>
